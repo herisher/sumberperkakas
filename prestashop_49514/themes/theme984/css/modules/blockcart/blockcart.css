@@ -47,7 +47,7 @@
     color: #fff;
     padding: 3px 0 0 0; }
   #header .shopping_cart:hover > a:first-child:before {
-    color: #ff5f01; }
+    color: #ff0122; }
   #header .shopping_cart:hover > a:first-child:after {
     content: "";
     padding: 2px 0 1px; }
@@ -84,7 +84,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f1f1f', endColorstr='#0c0c0c',GradientType=0 );
     /* IE6-8 */
     display: block;
-    color: #ff5f01;
+    color: #ff0122;
     overflow: hidden; }
     @media (min-width: 768px) and (max-width: 991px) {
       .shopping_cart > a:first-child span.ajax_cart_product_txt, .shopping_cart > a:first-child span.ajax_cart_product_txt_s {

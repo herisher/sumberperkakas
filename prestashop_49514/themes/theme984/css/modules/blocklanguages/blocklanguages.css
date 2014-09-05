@@ -25,7 +25,7 @@
     display: none; }
   #languages-block-top div.current {
     cursor: pointer;
-    color: #ff5f01; }
+    color: #ff0122; }
     #languages-block-top div.current strong {
       font-weight: normal; }
     #languages-block-top div.current:hover, #languages-block-top div.current.active {
@@ -71,4 +71,4 @@
         display: block;
         color: white; }
       #languages-block-top ul li.selected, #languages-block-top ul li:hover a, #languages-block-top ul li.selected span {
-        color: #ff5f01; }
+        color: #ff0122; }

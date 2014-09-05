@@ -62,7 +62,7 @@
       display: none; }
 
 #categories_block_left .block_content > ul > li.active > a {
-  background: #ff5f01; }
+  background: #ff0122; }
 
 @media (max-width: 767px) {
   #categories_block_left {
@@ -72,7 +72,7 @@
 #categories_block_left li {
   position: relative; }
   #categories_block_left li.extra-item a {
-    background: #ff5f01; }
+    background: #ff0122; }
   #categories_block_left li a {
     color: #fff;
     display: block;
@@ -110,7 +110,7 @@
   #categories_block_left li span.grower:hover + a,
   #categories_block_left li a:hover,
   #categories_block_left li a.selected {
-    background: #ff5f01;
+    background: #ff0122;
     color: white; }
   #categories_block_left li ul {
     background: #454545;
@@ -149,6 +149,6 @@
       border: none;
       padding: 0; }
       #categories_block_left li ul li a:hover {
-        color: #ff5f01; }
+        color: #ff0122; }
     #categories_block_left li ul li ul li:first-child {
       margin-top: 4px; }

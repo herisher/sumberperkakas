@@ -33,7 +33,7 @@ ul#header_links {
     transition: all 0.3s ease; }
     ul#header_links li:before {
       content: "";
-      color: #ff5f01;
+      color: #ff0122;
       font-family: "FontAwesome";
       font-size: 15px;
       line-height: 18px;
@@ -52,7 +52,7 @@ ul#header_links {
       font-weight: bold;
       color: #333333; }
       ul#header_links li a:hover, ul#header_links li a.active {
-        color: #ff5f01; }
+        color: #ff0122; }
 
 /*block permanent links right and left columns*/
 #permanent_links div {

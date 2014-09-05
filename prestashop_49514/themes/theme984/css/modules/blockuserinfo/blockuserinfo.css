@@ -76,12 +76,12 @@
       .user_info li a i {
         font-size: 18px;
         font-weight: normal;
-        color: #ff5f01;
+        color: #ff0122;
         line-height: 18px;
         margin-right: 6px;
         display: inline-block; }
       .user_info li a:hover {
-        color: #ff5f01; }
+        color: #ff0122; }
   .user_info li + li a {
     margin: 0;
     width: 49px;

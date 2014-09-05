@@ -28,7 +28,7 @@
     padding: 0;
     cursor: pointer; }
     #currencies-block-top div.current strong {
-      color: #ff5f01;
+      color: #ff0122;
       font-weight: normal; }
     #currencies-block-top div.current .cur-label {
       display: none; }
@@ -75,4 +75,4 @@
         display: block;
         color: white; }
       #currencies-block-top ul li.selected, #currencies-block-top ul li:hover a, #currencies-block-top ul li.selected a {
-        color: #ff5f01; }
+        color: #ff0122; }
