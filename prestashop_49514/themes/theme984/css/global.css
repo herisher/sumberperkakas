@@ -5312,7 +5312,7 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#848484', endColorstr='#434343',GradientType=0 );
   /* IE6-8 */
   border-bottom: 1px solid #eee;
-  padding-top: 33px; }
+  padding-top: 30px; }
   @media (max-width: 1199px) {
     .header-container {
       padding-top: 0; } }
