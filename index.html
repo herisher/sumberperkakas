@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/modules/blockcart/blockcart.css" media="all">
     <link rel="stylesheet" href="css/modules/blockcategories/blockcategories.css" media="all">
     <link rel="stylesheet" href="css/modules/blockcurrencies/blockcurrencies.css" media="all">
-    <!--link rel="stylesheet" href="modules/blockfacebook/css/blockfacebook.css" media="all"-->
+    <link rel="stylesheet" href="modules/blockfacebook/css/blockfacebook.css" media="all">
     <link rel="stylesheet" href="css/modules/blocklanguages/blocklanguages.css" media="all">
     <link rel="stylesheet" href="css/modules/blockcontact/blockcontact.css" media="all">
     <link rel="stylesheet" href="css/modules/blocknewsletter/blocknewsletter.css" media="all">
@@ -77,12 +77,12 @@
                             <!-- Block user information module NAV  -->
                             <ul class="user_info" style="visibility:hidden;">
                                 <li>
-                                    <a href="http://livedemo00.template-help.com/prestashop_49514/index.php?controller=my-account&amp;live_configurator_token=c5ef1a08b24156fdb860177e681fcfa2&amp;id_shop=1&amp;id_employee=2&amp;theme=&amp;theme_font=" title="View my customer account" rel="nofollow">
+                                    <a href="#" title="View my customer account" rel="nofollow">
                                         <i class="icon-user"></i>Your Account
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="login" href="http://livedemo00.template-help.com/prestashop_49514/index.php?controller=my-account&amp;live_configurator_token=c5ef1a08b24156fdb860177e681fcfa2&amp;id_shop=1&amp;id_employee=2&amp;theme=&amp;theme_font=" rel="nofollow" title="Login to your customer account">
+                                    <a class="login" href="#" rel="nofollow" title="Login to your customer account">
                                         <i class="icon-lock"></i>
                                     </a>
                                 </li>
@@ -91,7 +91,7 @@
                             <!-- MODULE Block cart -->
                             <div class="box-cart col-sm-3 clearfix" style="visibility: hidden">
                                 <div class="shopping_cart">
-                                    <a href="http://livedemo00.template-help.com/prestashop_49514/index.php?controller=order&amp;live_configurator_token=c5ef1a08b24156fdb860177e681fcfa2&amp;id_shop=1&amp;id_employee=2&amp;theme=&amp;theme_font=" title="View my shopping cart" rel="nofollow">
+                                    <a href="#" title="View my shopping cart" rel="nofollow">
                                         <b>Cart</b>
                                         <span class="ajax_cart_quantity unvisible">0</span>
                                         <span class="ajax_cart_product_txt unvisible">Product</span>
@@ -121,7 +121,7 @@
                                                     </div>
                                                 </div>
                                                 <p class="cart-buttons">
-                                                    <a id="button_order_cart" class="btn btn-default button button-small" href="http://livedemo00.template-help.com/prestashop_49514/index.php?controller=order&amp;live_configurator_token=c5ef1a08b24156fdb860177e681fcfa2&amp;id_shop=1&amp;id_employee=2&amp;theme=&amp;theme_font=" title="Check out" rel="nofollow">
+                                                    <a id="button_order_cart" class="btn btn-default button button-small" href="#" title="Check out" rel="nofollow">
                                                         <span>
                                                             Check out
                                                             <i class="icon-chevron-right right"></i>
@@ -138,7 +138,7 @@
 
                             <!-- /MODULE Block cart --><!-- Block search module TOP -->
                             <div id="search_block_top" class=" clearfix">
-                                <form id="searchbox" method="get" action="search">
+                                <form id="searchbox" method="get" action="list.html">
                                     <input type="hidden" name="controller" value="search">
                                     <input type="hidden" name="orderby" value="position">
                                     <input type="hidden" name="orderway" value="desc">
@@ -2068,7 +2068,7 @@
             </div><!-- #center_column -->
             <div class="container">
                 <div class="row">
-                    <div class="clearfix block-cms-fb">        
+                    <div class="clearfix block-cms-fb">     
                         <div id="fb-root" class=" fb_reset">
                             <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
                                 <div>
@@ -2157,6 +2157,21 @@
                             <h4>Information</h4>
                             <ul class="toggle-footer">
                                 <li class="item">
+                                    <a href="about.html" title="Contact us">
+                                        About us
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="stores.html" title="Our stores">
+                                        Our stores
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="contact.html" title="Contact us">
+                                        Contact us
+                                    </a>
+                                </li>
+                                <li class="item">
                                     <a href="list.html" title="Specials">
                                         Promo
                                     </a>
@@ -2169,26 +2184,6 @@
                                 <li class="item">
                                     <a href="list.html" title="Best sellers">
                                         Best sellers
-                                    </a>
-                                </li>
-                                <li class="item">
-                                    <a href="list.html" title="Our stores">
-                                        Our stores
-                                    </a>
-                                </li>
-                                <li class="item">
-                                    <a href="list.html" title="Contact us">
-                                        Contact us
-                                    </a>
-                                </li>
-                                <li class="item">
-                                    <a href="list.html" title="Pages configuration">
-                                        Pages configuration
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="list.html" title="Sitemap">
-                                        Sitemap
                                     </a>
                                 </li>
                             </ul>
@@ -2267,7 +2262,7 @@
                     </div>
                 </footer>
             </div><!-- #footer -->
-        </div>     
+        </div>
     </div><!-- #page -->
 
 <script type="text/javascript">
@@ -2277,8 +2272,8 @@ var FancyboxI18nNext = 'Next';
 var FancyboxI18nPrev = 'Previous';
 var added_to_wishlist = 'Added to your wishlist.';
 var ajaxsearch = true;
-var baseDir = 'http://livedemo00.template-help.com/prestashop_49514/';
-var baseUri = 'http://livedemo00.template-help.com/prestashop_49514/index.php';
+//var baseDir = 'http://sumberperkakas.co.id/';
+//var baseUri = 'http://sumberperkakas.co.id/';
 var blocksearch_type = 'top';
 var comparator_max_item = 2;
 var comparedProductsIds = [];
@@ -2293,7 +2288,7 @@ var homeslider_pause = '3000';
 var homeslider_speed = '500';
 var homeslider_width = '870';
 var id_lang = 1;
-var img_dir = 'http://livedemo00.template-help.com/prestashop_49514/themes/theme984/img/';
+var img_dir = 'http://sumberperkakas.co.id/img/';
 var instantsearch = true;
 var isGuest = 0;
 var isLogged = 0;
@@ -2327,7 +2322,7 @@ var wishlistProductsIds = false;
 <script type="text/javascript" src="js/autoload/15-jquery.uniform-modified.js"></script>
 <script type="text/javascript" src="js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
 <script type="text/javascript" src="js/products-comparison.js"></script>
-<script type="text/javascript" src="js/modules/blockcart/ajax-cart.js"></script>
+<!--script type="text/javascript" src="js/modules/blockcart/ajax-cart.js"></script-->
 <script type="text/javascript" src="js/jquery/plugins/jquery.scrollTo.js"></script>
 <script type="text/javascript" src="js/jquery/plugins/jquery.serialScroll.js"></script>
 <script type="text/javascript" src="js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
